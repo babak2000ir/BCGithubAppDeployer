@@ -4,6 +4,6 @@ codeunit 70249952 "Deploy TPE"
     var
         ExtentionMgmt: Codeunit "Extension Management";
     begin
-        ExtentionMgmt.UploadExtension(FileStream, lcid);
+        //ExtentionMgmt.UploadExtension(FileStream, lcid);
     end;
 }
