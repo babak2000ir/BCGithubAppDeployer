@@ -1,0 +1,17 @@
+{
+    "al.editorServicesLogLevel": "Verbose",
+    "CRS.ObjectNameSuffix": "TPE",
+    "CRS.AlSubFolderName": "src",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectType>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectType>Ext.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectName>(<BaseName>) [Cust<ObjectId>].al",
+    "CRS.OnSaveAlFileAction": "Reorganize",
+    "CRS.RemoveSuffixFromFilename": true,
+    "al.codeAnalyzers": [
+        "${UICop}",
+        "${CodeCop}"
+    ],
+    "al.backgroundCodeAnalysis": "Project",
+    "al.enableCodeAnalysis": true,
+    "al.browser": "SystemDefault"
+}
